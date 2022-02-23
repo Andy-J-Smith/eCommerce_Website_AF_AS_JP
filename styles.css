@@ -10,3 +10,56 @@ html {
     box-sizing: border-box;
     font-size: 62.5%;
 }
+
+body {
+    background-color:#BF7631
+}
+
+.textbox-md {
+    padding-left: 15px;
+}
+
+.textbox-sm {
+    padding-left: 10px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ffff;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #707070;
+  }
+
+  
+
+  .header {
+    background-color: #f1f1f1;
+    padding: 17px 100px;
+    text-align: center;
+    font-size: 35px;
+  }
+
+
+  .footer {
+    background-color: #BF7631;
+    padding: 17px 80px;
+    text-align: center;
+    font-size: 35px
+    }
