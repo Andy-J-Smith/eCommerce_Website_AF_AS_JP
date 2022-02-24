@@ -28,7 +28,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #ffff;
+    background-color: #ffffff;
   }
   
   li {
@@ -55,7 +55,7 @@ ul {
   }
 
 .header {
-    background-color: #f1f1f1;
+    background-color: #ffffff;
     padding: 17px 100px;
     text-align: center;
     font-size: 35px;
@@ -68,11 +68,14 @@ ul {
     width: 5%;
 }
 .about-us{
-  background-color: #f1f1f1f1;
-  padding: 27px 90px;
-  text-align: left;
-  font-size: 45;
-  margin: auto;
+  
+background-color: #ffffff;
+  
+padding: 27px 90px;
+  
+text-align: left;
+  
+margin: auto;
 }
 
 
@@ -84,16 +87,29 @@ ul {
     font-size: 35px
     }
 
-    .container {
-      position: relative;
+    .myDIV {
+      height:300px;
+      display: grid;
+      grid-template-columns: auto auto auto auto;
+      gap: 10px;
+      background-color: #ffffff;
+      padding: 10px;
+      grid: 100px / auto auto auto;
+    }
+    
+    .grid-container{
+      display : grid;
     }
 
-    .text-block {
-      position: absolute;
-      bottom: 20px;
-      right: 20px;
-      background-color: black;
-      color: white;
-      padding-left: 20px;
-      padding-right: 20px;
+    .item1{
+      align-items: right;
+      grid-column-start: 6;
+      grid-column-end: 6;
+    }
+
+    .item2{
+      align-items: left;
+      grid-column-start: 1;
+      grid-column-end: 2;
+
     }
