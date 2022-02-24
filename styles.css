@@ -67,6 +67,14 @@ ul {
     margin-right: auto;
     width: 5%;
 }
+.about-us{
+  background-color: #f1f1f1f1;
+  padding: 27px 90px;
+  text-align: left;
+  font-size: 45;
+  margin: auto;
+}
+
 
 
   .footer {
