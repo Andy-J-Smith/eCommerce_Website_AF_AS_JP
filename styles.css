@@ -99,12 +99,15 @@ margin: auto;
     
     .grid-container{
       display : grid;
+      grid-template-areas:
+        "top-left top top-right"
+        "bottom-left bottom bottom-right";
     }
 
     .item1{
       align-items: right;
-      grid-column-start: 6;
-      grid-column-end: 6;
+      grid-column-start: 1;
+      grid-column-end: 3;
     }
 
     .item2{
